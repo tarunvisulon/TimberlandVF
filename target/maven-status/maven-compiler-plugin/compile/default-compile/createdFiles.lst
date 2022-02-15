@@ -1,0 +1,12 @@
+com\qa\visulon\pages\VF_fontStyles.class
+com\qa\visulon\pages\VF_Milestones_Assortment.class
+com\qa\visulon\utils\IRetryAnalyzer\RetryAnalyzer.class
+com\qa\visulon\factory\DriverFactory.class
+com\qa\visulon\pages\VF_loginpage.class
+com\qa\visulon\utils\ExcelReader.class
+com\qa\visulon\utils\Constant.class
+com\qa\visulon\utils\ConfigReader.class
+com\qa\visulon\pages\VF_milestones_Homepage.class
+com\qa\visulon\utils\IRetryAnalyzer\AnnotationTransformer.class
+com\qa\visulon\pages\VF_Homepage.class
+com\qa\visulon\pages\VF_Roles.class

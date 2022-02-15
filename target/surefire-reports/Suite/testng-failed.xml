@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.visulon.listeners.TestListener"/>
+    <listener class-name="com.qa.visulon.utils.IRetryAnalyzer.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="Milestone(failed)" parallel="tests">
+    <parameter name="browserType" value="Firefox"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.visulon.test.VF_Milestones">
+        <methods>
+          <include name="getDriver"/>
+          <include name="init_browser"/>
+          <include name="tearDown"/>
+          <include name="VF_Milestomes_Assortment"/>
+          <include name="VF_Milestomes_homepage"/>
+        </methods>
+      </class> <!-- com.qa.visulon.test.VF_Milestones -->
+    </classes>
+  </test> <!-- Milestone(failed) -->
+</suite> <!-- Failed suite [Suite] -->

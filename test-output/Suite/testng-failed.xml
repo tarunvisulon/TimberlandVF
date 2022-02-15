@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.visulon.listeners.TestListener"/>
+    <listener class-name="com.qa.visulon.utils.IRetryAnalyzer.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Fonts(failed)">
+    <parameter name="browserType" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.visulon.test.VF_Fonts">
+        <methods>
+          <include name="getDriver"/>
+          <include name="init_browser"/>
+          <include name="tearDown"/>
+          <include name="Userlogin"/>
+          <include name="User_roles"/>
+        </methods>
+      </class> <!-- com.qa.visulon.test.VF_Fonts -->
+    </classes>
+  </test> <!-- Fonts(failed) -->
+  <test thread-count="5" name="Milestone(failed)">
+    <parameter name="browserType" value="Firefox"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.visulon.test.VF_Milestones">
+        <methods>
+          <include name="getDriver"/>
+          <include name="init_browser"/>
+          <include name="tearDown"/>
+          <include name="Userlogin"/>
+          <include name="VF_Milestomes_Assortment"/>
+          <include name="VF_Milestomes_homepage"/>
+        </methods>
+      </class> <!-- com.qa.visulon.test.VF_Milestones -->
+    </classes>
+  </test> <!-- Milestone(failed) -->
+</suite> <!-- Failed suite [Suite] -->
