@@ -14,11 +14,11 @@ public static List<String> ManageUserRoles= Arrays.asList("Global Category Manag
 
 public static List<String> AllMilestones= Arrays.asList("pre-AR1", "AR1", "pre-AR2", "AR2", "pre-Line Close", "Line Close");
 
-public static  String Screenshot_path="../VF_Sprints2021/FailureScreenshot/Failed_Images/";
+public static  String Screenshot_path="./FailureScreenshot/Failed_Images/";
 
-public static String Excel_path="../VF_Sprints2021/ExcleData/UserloginData.xlsx";
+public static String Excel_path="./ExcleData/UserloginData.xlsx";
 
-public static String ExtentReport_path="../VF_Sprints2021/Reports/Timberland_sprint.html";
+public static String ExtentReport_path="./Reports/Timberland_sprint.html";
 
 
 }
