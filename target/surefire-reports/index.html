@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.visulon.test.VF_Milestones" hash-for-method="VF_Milestomes_Assortment">VF_Milestomes_Assortment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.visulon.test.VF_Milestones" hash-for-method="VF_Milestomes_homepage">VF_Milestomes_homepage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -134,6 +115,16 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.visulon.test.VF_Milestones" hash-for-method="Userlogin(tarun_VF, admin@123)">Userlogin(tarun_VF, admin@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.visulon.test.VF_Milestones" hash-for-method="VF_Milestomes_Assortment">VF_Milestomes_Assortment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.visulon.test.VF_Milestones" hash-for-method="VF_Milestomes_homepage">VF_Milestomes_homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -146,82 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.visulon.test.VF_Milestones</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VF_Milestomes_Assortment">
-                  </a> <!-- VF_Milestomes_Assortment -->
-                  <span class="method-name">VF_Milestomes_Assortment</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;lnkFile&apos;]&quot;}
-  (Session info: chrome=98.0.4758.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-TOI63QB6&apos;, ip: &apos;192.168.2.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\tarun_g\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3020369111f8b3f33bb3a0e18a331efd
-*** Element info: {Using=xpath, value=//li[@id=&apos;lnkFile&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.qa.visulon.pages.VF_Milestones_Assortment.ClickonFile(VF_Milestones_Assortment.java:31)
-	at com.qa.visulon.test.VF_Milestones.VF_Milestomes_Assortment(VF_Milestones.java:37)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VF_Milestomes_homepage">
-                  </a> <!-- VF_Milestomes_homepage -->
-                  <span class="method-name">VF_Milestomes_homepage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;btnNewAssortment&apos;]&quot;}
-  (Session info: chrome=98.0.4758.82)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-TOI63QB6&apos;, ip: &apos;192.168.2.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_321&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\tarun_g\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61655}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3020369111f8b3f33bb3a0e18a331efd
-*** Element info: {Using=xpath, value=//div[@id=&apos;btnNewAssortment&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.qa.visulon.pages.VF_milestones_Homepage.ClickonCreateAssort(VF_milestones_Homepage.java:31)
-	at com.qa.visulon.test.VF_Milestones.VF_Milestomes_homepage(VF_Milestones.java:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -259,6 +174,20 @@ Session ID: 3020369111f8b3f33bb3a0e18a331efd
                   <span class="parameters">(tarun_VF, admin@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VF_Milestomes_Assortment">
+                  </a> <!-- VF_Milestomes_Assortment -->
+                  <span class="method-name">VF_Milestomes_Assortment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VF_Milestomes_homepage">
+                  </a> <!-- VF_Milestomes_homepage -->
+                  <span class="method-name">VF_Milestomes_homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -270,12 +199,12 @@ Session ID: 3020369111f8b3f33bb3a0e18a331efd
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.visulon.listeners.TestListener&quot;/&gt;
     &lt;listener class-name=&quot;com.qa.visulon.utils.IRetryAnalyzer.AnnotationTransformer&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Fonts&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Fonts&quot;&gt;
     &lt;parameter name=&quot;browserType&quot; value=&quot;Chrome&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -286,7 +215,7 @@ Session ID: 3020369111f8b3f33bb3a0e18a331efd
       &lt;class name=&quot;com.qa.visulon.test.VF_Fonts&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Fonts --&gt;
-  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Milestone&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Milestone&quot;&gt;
     &lt;parameter name=&quot;browserType&quot; value=&quot;Firefox&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -369,28 +298,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VF_Milestomes_Assortment')
 data.setCell(0, 2, 'com.qa.visulon.test.VF_Milestones')
-data.setCell(0, 3, 20069);
+data.setCell(0, 3, 14424);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'User_roles')
 data.setCell(1, 2, 'com.qa.visulon.test.VF_Fonts')
-data.setCell(1, 3, 17930);
+data.setCell(1, 3, 12110);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VF_Milestomes_homepage')
-data.setCell(2, 2, 'com.qa.visulon.test.VF_Milestones')
-data.setCell(2, 3, 10089);
+data.setCell(2, 1, 'Userlogin')
+data.setCell(2, 2, 'com.qa.visulon.test.VF_Fonts')
+data.setCell(2, 3, 9314);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Userlogin')
-data.setCell(3, 2, 'com.qa.visulon.test.VF_Fonts')
-data.setCell(3, 3, 8543);
+data.setCell(3, 1, 'VF_Milestomes_homepage')
+data.setCell(3, 2, 'com.qa.visulon.test.VF_Milestones')
+data.setCell(3, 3, 515);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Userlogin')
 data.setCell(4, 2, 'com.qa.visulon.test.VF_Milestones')
-data.setCell(4, 3, 7392);
+data.setCell(4, 3, 325);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -428,76 +357,48 @@ return data;
                 <span class="method-name">getDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">init_browser</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Userlogin(tarun_VF, admin@123)</span>
+                <span class="method-start">15117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">User_roles</span>
+                <span class="method-start">25909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38274 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.visulon.test.VF_Milestones</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">getDriver</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">39355 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Fonts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">init_browser</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">39356 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Milestones</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">init_browser</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Fonts</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Userlogin(tarun_VF, admin@123)</span>
-                <span class="method-start">9367 ms</span>
+                <span class="method-start">43165 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Milestones</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Userlogin(tarun_VF, admin@123)</span>
-                <span class="method-start">9367 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Fonts</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">User_roles</span>
-                <span class="method-start">19260 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Milestones</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">VF_Milestomes_homepage</span>
-                <span class="method-start">19278 ms</span>
+                <span class="method-start">47226 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">VF_Milestomes_Assortment</span>
-                <span class="method-start">31224 ms</span>
+                <span class="method-start">48021 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Fonts</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37464 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.visulon.test.VF_Milestones</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">52607 ms</span>
+                <span class="method-start">62785 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
