@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49413" started-at="2022-02-16T07:26:21Z" finished-at="2022-02-16T07:27:11Z">
+  <suite name="Suite" duration-ms="54099" started-at="2022-02-16T08:38:49Z" finished-at="2022-02-16T08:39:43Z">
     <groups>
       <group name="sanity">
         <method signature="VF_Fonts.Userlogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="Userlogin" class="com.qa.visulon.test.VF_Fonts"/>
@@ -16,17 +16,17 @@
         <method signature="VF_Milestones.Userlogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="Userlogin" class="com.qa.visulon.test.VF_Milestones"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Fonts" duration-ms="25182" started-at="2022-02-16T07:26:21Z" finished-at="2022-02-16T07:26:46Z">
+    <test name="Fonts" duration-ms="28892" started-at="2022-02-16T08:38:49Z" finished-at="2022-02-16T08:39:18Z">
       <class name="com.qa.visulon.test.VF_Fonts">
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="getDriver" is-config="true" duration-ms="19" started-at="2022-02-16T07:26:21Z" finished-at="2022-02-16T07:26:21Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="getDriver" is-config="true" duration-ms="20" started-at="2022-02-16T08:38:49Z" finished-at="2022-02-16T08:38:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="init_browser()[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="init_browser" is-config="true" duration-ms="4605" started-at="2022-02-16T07:26:21Z" finished-at="2022-02-16T07:26:26Z">
+        <test-method status="PASS" signature="init_browsers()[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="init_browsers" is-config="true" duration-ms="8192" started-at="2022-02-16T08:38:49Z" finished-at="2022-02-16T08:38:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init_browser -->
-        <test-method status="PASS" signature="Userlogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="Userlogin" duration-ms="473" started-at="2022-02-16T07:26:27Z" data-provider="loginData" finished-at="2022-02-16T07:26:27Z">
+        </test-method> <!-- init_browsers -->
+        <test-method status="PASS" signature="Userlogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="Userlogin" duration-ms="498" started-at="2022-02-16T08:38:59Z" data-provider="loginData" finished-at="2022-02-16T08:38:59Z">
           <params>
             <param index="0">
               <value>
@@ -42,27 +42,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Userlogin -->
-        <test-method status="PASS" signature="User_roles()[pri:1, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="User_roles" duration-ms="10929" started-at="2022-02-16T07:26:34Z" finished-at="2022-02-16T07:26:45Z">
+        <test-method status="PASS" signature="User_roles()[pri:1, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="User_roles" duration-ms="11101" started-at="2022-02-16T08:39:06Z" finished-at="2022-02-16T08:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_roles -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="tearDown" is-config="true" duration-ms="1003" started-at="2022-02-16T07:26:45Z" finished-at="2022-02-16T07:26:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.visulon.test.VF_Fonts@3012646b]" name="tearDown" is-config="true" duration-ms="987" started-at="2022-02-16T08:39:17Z" finished-at="2022-02-16T08:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.visulon.test.VF_Fonts -->
     </test> <!-- Fonts -->
-    <test name="Milestone" duration-ms="24202" started-at="2022-02-16T07:26:46Z" finished-at="2022-02-16T07:27:11Z">
+    <test name="Milestone" duration-ms="25179" started-at="2022-02-16T08:39:18Z" finished-at="2022-02-16T08:39:43Z">
       <class name="com.qa.visulon.test.VF_Milestones">
-        <test-method status="PASS" signature="init_browser()[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="init_browser" is-config="true" duration-ms="4141" started-at="2022-02-16T07:26:46Z" finished-at="2022-02-16T07:26:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init_browser -->
-        <test-method status="PASS" signature="getDriver()[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="getDriver" is-config="true" duration-ms="0" started-at="2022-02-16T07:26:46Z" finished-at="2022-02-16T07:26:46Z">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="getDriver" is-config="true" duration-ms="0" started-at="2022-02-16T08:39:18Z" finished-at="2022-02-16T08:39:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDriver -->
-        <test-method status="PASS" signature="Userlogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="Userlogin" duration-ms="318" started-at="2022-02-16T07:26:51Z" data-provider="loginData" finished-at="2022-02-16T07:26:51Z">
+        <test-method status="PASS" signature="init_browsers()[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="init_browsers" is-config="true" duration-ms="6758" started-at="2022-02-16T08:39:18Z" finished-at="2022-02-16T08:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_browsers -->
+        <test-method status="PASS" signature="Userlogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="Userlogin" duration-ms="299" started-at="2022-02-16T08:39:25Z" data-provider="loginData" finished-at="2022-02-16T08:39:25Z">
           <params>
             <param index="0">
               <value>
@@ -78,15 +78,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Userlogin -->
-        <test-method status="PASS" signature="VF_Milestomes_homepage()[pri:1, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="VF_Milestomes_homepage" duration-ms="477" started-at="2022-02-16T07:26:55Z" finished-at="2022-02-16T07:26:55Z">
+        <test-method status="PASS" signature="VF_Milestomes_homepage()[pri:1, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="VF_Milestomes_homepage" duration-ms="467" started-at="2022-02-16T08:39:30Z" finished-at="2022-02-16T08:39:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VF_Milestomes_homepage -->
-        <test-method status="PASS" signature="VF_Milestomes_Assortment()[pri:2, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="VF_Milestomes_Assortment" duration-ms="13566" started-at="2022-02-16T07:26:56Z" finished-at="2022-02-16T07:27:09Z">
+        <test-method status="PASS" signature="VF_Milestomes_Assortment()[pri:2, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="VF_Milestomes_Assortment" duration-ms="11007" started-at="2022-02-16T08:39:31Z" finished-at="2022-02-16T08:39:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VF_Milestomes_Assortment -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="tearDown" is-config="true" duration-ms="950" started-at="2022-02-16T07:27:10Z" finished-at="2022-02-16T07:27:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.visulon.test.VF_Milestones@d86a6f]" name="tearDown" is-config="true" duration-ms="1112" started-at="2022-02-16T08:39:42Z" finished-at="2022-02-16T08:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

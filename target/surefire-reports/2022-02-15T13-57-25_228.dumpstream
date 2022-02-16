@@ -1,4 +1,0 @@
-# Created at 2022-02-15T13:57:25.667
-Boot Manifest-JAR contains absolute paths in classpath 'D:\TREX\VF\VF_Sprints2021\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

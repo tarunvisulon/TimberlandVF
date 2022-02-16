@@ -50,9 +50,9 @@ public class BaseSetup {
 	
 	
 
-    @Parameters("broswer")
+	/* @Parameters("broswer") */
 	@BeforeClass(groups = { "Smoke", "sanity" })
-	public void init_browser() {
+	public void init_browsers() {
 
 		df = new DriverFactory();
 		cr = new ConfigReader();

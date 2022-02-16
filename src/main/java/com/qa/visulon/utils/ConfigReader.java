@@ -19,7 +19,7 @@ public class ConfigReader {
 		{
 			try {
 				f = new FileInputStream(
-						"../VF_Sprints2021/src/test/java/com/qa/resources/Configreader_dev");
+						"./src/test/java/com/qa/resources/Configreader_dev");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -39,7 +39,7 @@ public class ConfigReader {
 			switch (env) {
 			case "dev":
 				f = new FileInputStream(
-						"../VF_Sprints2021/src/test/java/com/qa/resources/Configreader_dev");
+						"./src/test/java/com/qa/resources/Configreader_dev");
 
 				
 				break;
@@ -47,7 +47,7 @@ public class ConfigReader {
 			case "qa":
 
 				f = new FileInputStream(
-						"../VF_Sprints2021/src/test/java/com/qa/resources/Configreader_QA");
+						"./src/test/java/com/qa/resources/Configreader_QA");
 
 				
 
